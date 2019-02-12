@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>devops-1</groupId>
+  <artifactId>project-2-root</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>My JS Application ROOT Module</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.8.2</version>
+        <inherited>false</inherited>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>2.5.2</version>
+        <inherited>false</inherited>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <modules>
+    <module>project-2</module>
+    <module>project-2.api</module>
+    <module>project-2.app</module>
+    <module>project-2.app.dev</module>
+    <module>project-2.app.war</module>
+    <module>project-2.core</module>
+    <module>project-2.core.test</module>
+    <module>project-2.data</module>
+    <module>project-2.db</module>
+    <module>project-2.persistence</module>
+    <module>project-2.persistence.test</module>
+    <module>project-2.ui</module>
+  </modules>
+</project>

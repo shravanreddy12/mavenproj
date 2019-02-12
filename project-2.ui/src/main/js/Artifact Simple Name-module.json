@@ -1,0 +1,10 @@
+{
+  "files": [
+    "Artifact Simple Name/desktop/Desktop.json",
+    "Artifact Simple Name/desktop/DataOutline.json",
+
+    "Artifact Simple Name/person/PersonForm.json",
+    "Artifact Simple Name/person/PersonSearchForm.json",
+    "Artifact Simple Name/person/PersonTablePage.json"
+  ]
+}

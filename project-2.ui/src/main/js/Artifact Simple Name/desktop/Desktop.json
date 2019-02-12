@@ -1,0 +1,34 @@
+{
+  "id": "Artifact Simple Name.Desktop",
+  "title": "${textKey:ApplicationTitle}",
+  "objectType": "Desktop",
+  "logoUrl": "res/img/eclipse_scout_logo.png",
+  "outline": {
+    "objectType": "Artifact Simple Name.DataOutline"
+  },
+  "menus": [
+    {
+      "id": "ThemeMenu",
+      "objectType": "Menu",
+      "text": "${textKey:Theme}",
+      "childActions": [
+        {
+          "id": "DefaultThemeMenu",
+          "objectType": "Menu",
+          "text": "Default"
+        },
+        {
+          "id": "DarkThemeMenu",
+          "objectType": "Menu",
+          "text": "Dark"
+        }
+      ]
+    },
+    {
+      "id": "AboutMenu",
+      "objectType": "Menu",
+      "text": "${textKey:About}",
+      "cssClass": "about-menu"
+    }
+  ]
+}

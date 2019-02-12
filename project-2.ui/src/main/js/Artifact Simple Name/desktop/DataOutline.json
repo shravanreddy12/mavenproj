@@ -1,0 +1,10 @@
+{
+    "id": "Artifact Simple Name.DataOutline",
+    "title": "${textKey:MyDataOutlineTitle}",
+    "objectType": "Outline",
+    "nodes": [
+        {
+            "objectType": "Artifact Simple Name.PersonTablePage"
+        }
+    ]
+}
